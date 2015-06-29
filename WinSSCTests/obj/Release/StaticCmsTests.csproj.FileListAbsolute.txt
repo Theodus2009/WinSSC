@@ -1,0 +1,13 @@
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\categorisedArticles.xsl
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\flatArticlesList.xsl
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\StaticCmsTests.dll
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\StaticCmsTests.pdb
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\MarkdownSharp.dll
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\MarkdownSharp.pdb
+C:\Data\Net Projects\StaticCms\StaticCmsTests\obj\Release\StaticCmsTests.csprojResolveAssemblyReference.cache
+C:\Data\Net Projects\StaticCms\StaticCmsTests\obj\Release\StaticCmsTests.dll
+C:\Data\Net Projects\StaticCms\StaticCmsTests\obj\Release\StaticCmsTests.pdb
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\virtualMarkdownArticles.groups
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\virtualMarkdownArticles.xslmd
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\WinSSC.exe
+C:\Data\Net Projects\StaticCms\StaticCmsTests\bin\Release\WinSSC.pdb

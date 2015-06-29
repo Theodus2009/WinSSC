@@ -1,0 +1,7 @@
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Debug\StaticCms.exe
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Debug\StaticCms.pdb
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Debug\MarkdownSharp.dll
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Debug\MarkdownSharp.pdb
+C:\Data\Net Projects\StaticCms\StaticCms\obj\Debug\StaticCms.exe
+C:\Data\Net Projects\StaticCms\StaticCms\obj\Debug\StaticCms.pdb
+C:\Data\Net Projects\StaticCms\StaticCms\obj\Debug\StaticCms.csprojResolveAssemblyReference.cache

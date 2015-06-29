@@ -1,0 +1,5 @@
+#This file specifies paths to the site content and output directories
+articlesDir=C:\Data\Web\trunk\New Site\Content\
+templatesDir=C:\Data\Web\trunk\New Site\Templates\
+macrosDir=C:\Data\Web\trunk\New Site\Macros\
+outputDir=C:\Data\Web\trunk\New Site\Output\

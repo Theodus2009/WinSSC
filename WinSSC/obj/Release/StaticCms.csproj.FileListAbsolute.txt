@@ -1,0 +1,6 @@
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Release\MarkdownSharp.dll
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Release\MarkdownSharp.pdb
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Release\WinSSC.exe
+C:\Data\Net Projects\StaticCms\StaticCms\bin\Release\WinSSC.pdb
+C:\Data\Net Projects\StaticCms\StaticCms\obj\Release\WinSSC.exe
+C:\Data\Net Projects\StaticCms\StaticCms\obj\Release\WinSSC.pdb

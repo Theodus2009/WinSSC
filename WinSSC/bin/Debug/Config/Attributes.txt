@@ -1,0 +1,6 @@
+#Note - The engine always adds an attribute named "Template" of type "String", used to identify the template for an article.
+#       Additionally an attribute of named "Path" also added by the engine, to store the desired output path. If not specified, output path is based on the original file path.
+Title:String
+Category:String
+Tags:StringArray
+Date:Date
