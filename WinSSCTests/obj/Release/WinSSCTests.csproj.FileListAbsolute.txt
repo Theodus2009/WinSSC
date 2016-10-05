@@ -24,3 +24,16 @@ C:\Data\Net Projects\StaticCms\WinSSCTests\bin\Release\MarkdownSharp.pdb
 C:\Data\Net Projects\StaticCms\WinSSCTests\obj\Release\WinSSCTests.csprojResolveAssemblyReference.cache
 C:\Data\Net Projects\StaticCms\WinSSCTests\obj\Release\WinSSCTests.dll
 C:\Data\Net Projects\StaticCms\WinSSCTests\obj\Release\WinSSCTests.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\categorisedArticles.xsl
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\flatArticlesList.xsl
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\virtualMarkdownArticles.groups
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\virtualMarkdownArticles.xslmd
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\WinSSCTests.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\WinSSCTests.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\WinSSC.exe
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\MarkdownSharp.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\WinSSC.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Release\MarkdownSharp.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Release\WinSSCTests.csprojResolveAssemblyReference.cache
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Release\WinSSCTests.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Release\WinSSCTests.pdb

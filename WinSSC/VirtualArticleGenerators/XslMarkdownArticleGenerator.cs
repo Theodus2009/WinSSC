@@ -1,5 +1,6 @@
 ﻿//Part of WinSSC, © Edward Tippetts and other WinSSC contributors 2015 - https://github.com/Theodus2009/WinSSC
 //Licenced under GNU Lesser GPL v3 - see COPYING.txt and COPYING LESSER.txt for detailsusing WinSSC.Macros;
+
 using WinSSC.ArticleProcessors;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Xml;
 using System.Xml.Xsl;
+using WinSSC.Macros;
 
 namespace WinSSC.VirtualArticleGenerators
 {
