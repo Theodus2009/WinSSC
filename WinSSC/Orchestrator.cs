@@ -79,8 +79,13 @@ namespace WinSSC
             List<ArticleDto> articles = new List<ArticleDto>();
             IList<ITemplateProcessor> templateProcessors;
             List<TemplateDto> templates = new List<TemplateDto>();
+            List<IVirtualArticleGeneratorLoader> virtualArticleGenLoaders = new List<IVirtualArticleGeneratorLoader>();
             List<IVirtualArticleGenerator> articleGenerators = new List<IVirtualArticleGenerator>();
-            
+
+            virtualArticleGenLoaders.Add(new XslMarkdownArticleGeneratorLoader(validAttributes));
+            virtualArticleGenLoaders.Add(new XslArticleGeneratorLoader(validAttributes));
+
+
             string[] articlePaths;
 
             templateProcessors = new List<ITemplateProcessor>();
@@ -103,6 +108,7 @@ namespace WinSSC
                 }
             }
 
+
             //Load templates
             foreach(ITemplateProcessor tp in templateProcessors)
             {
@@ -122,17 +128,24 @@ namespace WinSSC
             //Load virtual article generators
             if (!string.IsNullOrEmpty(paths.VirtualArticlesRootDir))
             {
-                IVirtualArticleGeneratorLoader loader = new XslMarkdownArticleGeneratorLoader(validAttributes);
-                string[] generatorPaths = Directory.GetFiles(paths.VirtualArticlesRootDir, "*" + loader.PrimaryFileExtension);
-                foreach (string path in generatorPaths)
+                foreach (IVirtualArticleGeneratorLoader loader in virtualArticleGenLoaders)
                 {
-                    IVirtualArticleGenerator gen = loader.ParseGeneratorFromFile(path);
-                    if (gen != null)
+                    string[] generatorPaths = Directory.GetFiles(paths.VirtualArticlesRootDir, "*" + loader.PrimaryFileExtension);
+                    foreach (string path in generatorPaths)
                     {
-                        articleGenerators.Add(gen);
+                        if (path.ToLower().EndsWith(loader.PrimaryFileExtension.ToLower()))
+                        {
+                            IVirtualArticleGenerator gen = loader.ParseGeneratorFromFile(path);
+                            if (gen != null)
+                            {
+                                articleGenerators.Add(gen);
+                            }
+                        }
                     }
                 }
             }
+
+            applyOutputPaths(articles);
 
             createVirtualArticles(articles, articleGenerators);
 

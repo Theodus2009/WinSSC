@@ -1,5 +1,7 @@
 ﻿//Part of WinSSC, © Edward Tippetts and other WinSSC contributors 2015 - https://github.com/Theodus2009/WinSSC
 //Licenced under GNU Lesser GPL v3 - see COPYING.txt and COPYING LESSER.txt for detailsusing System;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,7 +29,7 @@ namespace WinSSC.Util
                         continue;
                     }
                     string[] parts = s.Split(':');
-                    if (parts.Length != 2)
+                    if (parts.Length < 2)
                     {
                         Logger.LogWarning("Attribute " + s + " ignored on " + relativePath + "(Malformed)");
                         continue;
@@ -47,9 +49,9 @@ namespace WinSSC.Util
                         continue;
                     }
                     string[] vals = parts[1].Split(',');
-                    if (attrDef.DataType == EAttributeType.String || attrDef.DataType == EAttributeType.Number || attrDef.DataType == EAttributeType.Date)
+                    if (attrDef.DataType == EAttributeType.Number || attrDef.DataType == EAttributeType.Date)
                     {
-                        //String and number types may have exactly one value
+                        //Date and number types may have exactly one value
                         if (vals.Length != 1)
                         {
                             Logger.LogWarning("Attribute " + s + " ignored on " + relativePath + "(Multiple values specified for single-value attribute type)");
@@ -78,6 +80,18 @@ namespace WinSSC.Util
                             continue;
                         }
                     }
+
+                    if (attrDef.DataType == EAttributeType.String)
+                    {
+                        //Pack all parts in to one
+                        vals = new string[1];
+                        vals[0] = "";
+                        for (int j = 1; j < parts.Length; j++)
+                        {
+                            vals[0] += parts[j];
+                        }
+                    }
+
                     attributes.Add(parts[0], vals);
                 }
                 else

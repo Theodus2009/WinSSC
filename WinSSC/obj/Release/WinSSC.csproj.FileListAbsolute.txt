@@ -10,3 +10,6 @@ C:\Data\Net Projects\StaticCms\WinSSC\obj\Release\WinSSC.pdb
 C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Release\WinSSC.exe
 C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Release\WinSSC.pdb
 C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Release\WinSSC.csprojResolveAssemblyReference.cache
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Release\WinSSC.exe
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Release\WinSSC.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Release\MarkdownSharp.pdb

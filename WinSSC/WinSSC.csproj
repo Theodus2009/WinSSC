@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="ArticleDto.cs" />
     <Compile Include="ArticleProcessors\IArticleProcessor.cs" />
+    <Compile Include="ArticleProcessors\PureTextArticleProcessor.cs" />
     <Compile Include="Macros\XslProcessorBase.cs" />
     <Compile Include="VirtualArticleGenerators\IVirtualArticleGeneratorLoader.cs" />
     <Compile Include="AttributeTranformations.cs" />
@@ -76,7 +77,9 @@
     <Compile Include="TemplateProcessors\MarkdownTemplateProcessor.cs" />
     <Compile Include="Util\MarkdownUtil.cs" />
     <Compile Include="VirtualArticleGenerators\IVirtualArticleGenerator.cs" />
+    <Compile Include="VirtualArticleGenerators\XslArticleGenerator.cs" />
     <Compile Include="VirtualArticleGenerators\XslMarkdownArticleGenerator.cs" />
+    <Compile Include="VirtualArticleGenerators\XslArticleGeneratorLoader.cs" />
     <Compile Include="VirtualArticleGenerators\XslMarkdownArticleGeneratorLoader.cs" />
   </ItemGroup>
   <ItemGroup />

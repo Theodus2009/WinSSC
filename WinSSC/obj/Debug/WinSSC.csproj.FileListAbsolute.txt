@@ -1,0 +1,6 @@
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Debug\WinSSC.csprojResolveAssemblyReference.cache
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Debug\WinSSC.exe
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Debug\WinSSC.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\bin\Debug\MarkdownSharp.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Debug\WinSSC.exe
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSC\obj\Debug\WinSSC.pdb

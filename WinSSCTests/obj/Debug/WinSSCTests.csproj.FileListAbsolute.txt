@@ -1,0 +1,13 @@
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Debug\WinSSCTests.csprojResolveAssemblyReference.cache
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\categorisedArticles.xsl
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\flatArticlesList.xsl
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\virtualMarkdownArticles.groups
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\virtualMarkdownArticles.xslmd
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\WinSSCTests.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\WinSSCTests.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\WinSSC.exe
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\MarkdownSharp.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\WinSSC.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\bin\Debug\MarkdownSharp.pdb
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Debug\WinSSCTests.dll
+C:\Users\Eddie\Documents\GitHub\WinSSC\WinSSCTests\obj\Debug\WinSSCTests.pdb
